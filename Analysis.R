@@ -1,5 +1,5 @@
 library(tidyverse)
-salaries <- read.csv("salaries_1985to2018.csv", stringsAsFactors = FALSE)
+salaries <- read.csv("salaries_1985to2018.csv", stringsAsFactors = FALSE) 
 
 # Make sure salary is numeric
 salaries$salary <- as.numeric(salaries$salary)
