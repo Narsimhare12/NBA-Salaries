@@ -23,7 +23,7 @@ ggplot(salaries_subset, aes(x = season_start, y = salary_millions, fill = season
     fill = "Season",
     caption = "Data source: NBA salary dataset, 1984–2017"
   ) +
-  theme_minimal()
+  theme_minimal() 
 #Histogram
 ggplot(salaries_subset, aes(x = salary_millions, fill = season_start)) +
   geom_histogram(bins = 30, alpha = 0.6, position = "identity") +
