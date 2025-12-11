@@ -35,4 +35,4 @@ ggplot(salaries_subset, aes(x = salary_millions, fill = season_start)) +
     fill = "Season",
     caption = "Histograms show the distribution and skewness of salaries by season."
   ) +
-  theme_minimal()
+  theme_minimal() 
