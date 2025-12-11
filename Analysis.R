@@ -11,4 +11,4 @@ salaries_subset <- salaries %>%
   mutate(
     season_start = factor(season_start)) 
 #Independent two-sample t-test
-t.test(salary ~ season_start, data = salaries_subset) 
+t.test(salary ~ season_start, data = salaries_subset)
